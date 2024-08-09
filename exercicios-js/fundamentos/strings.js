@@ -2,7 +2,7 @@ const escola = 'Estudo Pessoal'
 
 console.log(escola.charAt(4));
 
-console.log(escola.charAt(14)); //não retorna nada, pois não tem letra nmo indice 14
+console.log(escola.charAt(14)); //não retorna nada, pois não tem letra no indice 14
 
 console.log(escola.charCodeAt(3)); //tabela unicode 
 
