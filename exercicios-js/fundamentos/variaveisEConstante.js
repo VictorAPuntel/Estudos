@@ -1,17 +1,16 @@
-var a = 3
-let b = 4
+var a = 3;
+let b = 4;
 
-var a = 30
+var a = 30;
 //let b = 40 Isso é um erro, o tipo let já foi declarado e não pode ser delcarado novamente
-b = 40
+b = 40;
 console.log(a, b);
 
-a = 300
-b = 400
+a = 300;
+b = 400;
 
-console.log(a,b);
+console.log(a, b);
 
-const c = 5
-// c = 50 Isso é uma constante, não pode ser alterada diretamente 
+const c = 5;
+// c = 50 Isso é uma constante, não pode ser alterada diretamente
 console.log(c);
-

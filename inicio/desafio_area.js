@@ -1,7 +1,7 @@
 // fórmula = PI * raio * raio
-const PI = 3.14
-let  raio = 10
+const PI = 3.14;
+let raio = 10;
 
-let area = PI * raio * raio
+let area = PI * raio * raio;
 
-console.log('A área é ' + area + 'm2');
+console.log("A área é " + area + "m2");
