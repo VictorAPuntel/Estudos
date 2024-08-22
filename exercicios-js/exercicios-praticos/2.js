@@ -6,19 +6,15 @@
  */
 
 function typeOfTriangules(a, b, c) {
-  if ((a == b) == c) {
+  if (a == b && b == c) {
     return console.log(
       `O triângulo é Equilátero com as medidas: ${a} ${b} ${c}`
     );
-  } else if ((a == b) !== c) {
+  } else if ((a !== b && b == c) || (a == b && b !== c)) {
     return console.log(
       `O triângulo é Isósceles com as medidas: ${a} ${b} ${c}`
     );
-  } else if ((a !== b) == c) {
-    return console.log(
-      `O triângulo é Isósceles com as medidas: ${a} ${b} ${c}`
-    );
-  } else (a !== b) !== c;
+  } 
   return console.log(`O triângulo é Escaleno com as medidas: ${a} ${b} ${c}`);
 }
 
