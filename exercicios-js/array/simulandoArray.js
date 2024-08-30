@@ -10,5 +10,5 @@ Object.defineProperty(quaseArray, "toString", {
 
 console.log(quaseArray[0]);
 
-const mewArray = ["Rafael", "Ana", "Bia"];
-console.log(quaseArray.toString(), mewArray);
+const newArray = ["Rafael", "Ana", "Bia"];
+console.log(quaseArray.toString(), newArray);
