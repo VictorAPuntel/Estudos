@@ -19,5 +19,5 @@ function bhaskara(ax2, bx, c) {
   return [x1, x2];
 }
 
-let resultado = bhaskara(3, -5, 12);
-console.log(resultado);
+let result = bhaskara(3, -5, 12);
+console.log(result);
